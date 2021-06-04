@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "LJaraOYMS7KpjE6Foss1X0t9qWOERvtRm4J6YxpoNa88tg4WAOhtKtBDs2o5aRpuhSDlxRzrafQU7+1uUJGc5Q==",
+  "success": true,
+  "projectFilePath": "F:\\Repozytorium\\CalculatorXUnit\\CalculatorXUnit.Backend\\CalculatorXUnit.Backend.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Maciek\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Maciek\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

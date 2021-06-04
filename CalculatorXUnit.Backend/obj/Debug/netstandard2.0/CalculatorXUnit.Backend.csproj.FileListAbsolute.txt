@@ -1,0 +1,9 @@
+F:\Repozytorium\CalculatorXUnit\CalculatorXUnit.Backend\bin\Debug\netstandard2.0\CalculatorXUnit.Backend.deps.json
+F:\Repozytorium\CalculatorXUnit\CalculatorXUnit.Backend\bin\Debug\netstandard2.0\CalculatorXUnit.Backend.dll
+F:\Repozytorium\CalculatorXUnit\CalculatorXUnit.Backend\bin\Debug\netstandard2.0\CalculatorXUnit.Backend.pdb
+F:\Repozytorium\CalculatorXUnit\CalculatorXUnit.Backend\obj\Debug\netstandard2.0\CalculatorXUnit.Backend.csprojAssemblyReference.cache
+F:\Repozytorium\CalculatorXUnit\CalculatorXUnit.Backend\obj\Debug\netstandard2.0\CalculatorXUnit.Backend.AssemblyInfoInputs.cache
+F:\Repozytorium\CalculatorXUnit\CalculatorXUnit.Backend\obj\Debug\netstandard2.0\CalculatorXUnit.Backend.AssemblyInfo.cs
+F:\Repozytorium\CalculatorXUnit\CalculatorXUnit.Backend\obj\Debug\netstandard2.0\CalculatorXUnit.Backend.csproj.CoreCompileInputs.cache
+F:\Repozytorium\CalculatorXUnit\CalculatorXUnit.Backend\obj\Debug\netstandard2.0\CalculatorXUnit.Backend.dll
+F:\Repozytorium\CalculatorXUnit\CalculatorXUnit.Backend\obj\Debug\netstandard2.0\CalculatorXUnit.Backend.pdb
