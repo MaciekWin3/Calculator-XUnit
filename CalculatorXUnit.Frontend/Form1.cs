@@ -17,6 +17,7 @@ namespace CalculatorXUnit.Frontend
         bool startNewNumber = true;
         private decimal num1;
         private decimal num2;
+        bool negative = false;
 
         public Form1()
         {
@@ -166,17 +167,39 @@ namespace CalculatorXUnit.Frontend
 
         private void buttonClear_Click(object sender, EventArgs e)
         {
-
+            textBox1.Text = "";
         }
 
         private void buttonClearE_Click(object sender, EventArgs e)
         {
-
+            textBox1.Text = "";
+            num1 = 0;
+            num2 = 0;
+            label1.Text = "";
         }
 
         private void buttonBackspace_Click(object sender, EventArgs e)
         {
+            textBox1.Text = textBox1.Text.Remove(textBox1.Text.Length - 1);
+        }
 
+        private void buttonNegative_Click(object sender, EventArgs e)
+        {
+            if (negative == false)
+            {
+                textBox1.Text = "-" + textBox1.Text;
+                negative = true;
+            }
+            else
+            {
+                textBox1.Text = textBox1.Text.Substring(1, textBox1.Text.Length - 1);
+                negative = false;
+            }
+        }
+
+        private void buttonPoint_Click(object sender, EventArgs e)
+        {
+            NumberBt_Click(",");
         }
     }
 }

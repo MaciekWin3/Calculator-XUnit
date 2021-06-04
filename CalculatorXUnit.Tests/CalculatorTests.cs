@@ -185,8 +185,6 @@ namespace CalculatorXUnit.Tests
             decimal result = _sut.Divide(firstToDivide, secondToDivide);
 
             Assert.Equal(expected, result);
-
-            Assert.
         }
 
     }

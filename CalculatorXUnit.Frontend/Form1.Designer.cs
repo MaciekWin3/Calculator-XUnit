@@ -57,20 +57,22 @@ namespace CalculatorXUnit.Frontend
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(15, 70);
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.textBox1.Location = new System.Drawing.Point(15, 75);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(382, 20);
+            this.textBox1.ReadOnly = true;
+            this.textBox1.Size = new System.Drawing.Size(285, 35);
             this.textBox1.TabIndex = 0;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 37);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            this.label1.Location = new System.Drawing.Point(12, 43);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(13, 13);
+            this.label1.Size = new System.Drawing.Size(0, 24);
             this.label1.TabIndex = 2;
-            this.label1.Text = ":)";
             // 
             // tableLayoutPanel1
             // 
@@ -132,6 +134,7 @@ namespace CalculatorXUnit.Frontend
             this.buttonPoint.TabIndex = 23;
             this.buttonPoint.Text = ".";
             this.buttonPoint.UseVisualStyleBackColor = false;
+            this.buttonPoint.Click += new System.EventHandler(this.buttonPoint_Click);
             // 
             // buttonNegative
             // 
@@ -143,6 +146,7 @@ namespace CalculatorXUnit.Frontend
             this.buttonNegative.TabIndex = 22;
             this.buttonNegative.Text = "+/-";
             this.buttonNegative.UseVisualStyleBackColor = false;
+            this.buttonNegative.Click += new System.EventHandler(this.buttonNegative_Click);
             // 
             // buttonAdd
             // 
