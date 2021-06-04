@@ -52,16 +52,17 @@ namespace CalculatorXUnit.Frontend
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button0 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // textBox1
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
-            this.textBox1.Location = new System.Drawing.Point(15, 75);
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.textBox1.Location = new System.Drawing.Point(12, 72);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(285, 35);
+            this.textBox1.Size = new System.Drawing.Size(285, 38);
             this.textBox1.TabIndex = 0;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -69,7 +70,7 @@ namespace CalculatorXUnit.Frontend
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            this.label1.Location = new System.Drawing.Point(12, 43);
+            this.label1.Location = new System.Drawing.Point(12, 42);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(0, 24);
             this.label1.TabIndex = 2;
@@ -109,6 +110,7 @@ namespace CalculatorXUnit.Frontend
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(391, 438);
             this.tableLayoutPanel1.TabIndex = 3;
             // 
@@ -352,11 +354,24 @@ namespace CalculatorXUnit.Frontend
             this.button0.UseVisualStyleBackColor = false;
             this.button0.Click += new System.EventHandler(this.button0_Click);
             // 
+            // button10
+            // 
+            this.button10.BackColor = System.Drawing.Color.CadetBlue;
+            this.button10.Font = new System.Drawing.Font("Felix Titling", 12F, System.Drawing.FontStyle.Bold);
+            this.button10.Location = new System.Drawing.Point(306, 71);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(91, 39);
+            this.button10.TabIndex = 7;
+            this.button10.Text = "binary";
+            this.button10.UseVisualStyleBackColor = false;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(415, 566);
+            this.Controls.Add(this.button10);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
@@ -393,6 +408,7 @@ namespace CalculatorXUnit.Frontend
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button0;
+        private System.Windows.Forms.Button button10;
     }
 }
 
