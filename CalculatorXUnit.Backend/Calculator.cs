@@ -6,26 +6,35 @@ namespace CalculatorXUnit.Backend
 {
     public class Calculator
     {
-        public decimal Value { get; private set; } = 0;
+        decimal result;
 
-        public decimal Add(decimal value)
+        public decimal Add(decimal a, decimal b)
         {
-            return Value += value;
+            return a + b;
         }
 
-        public decimal Subtract(decimal value)
+        public decimal Subtract(decimal a, decimal b)
         {
-            return Value -= value;
+            return a - b;
         }
 
-        public decimal Multiply(decimal value)
+        public decimal Multiply(decimal a, decimal b)
         {
-            return Value *= value;
+            return a * b;
         }
 
-        public decimal Divide(decimal value)
+        public decimal Divide(decimal a, decimal b)
         {
-            return Value /= value;
+            //try
+            //{
+            result = a / b;
+            //}
+            //catch(DivideByZeroException e)
+            //{
+            //Console.WriteLine("Cannot divide by 0", e.Message);
+            //}
+
+            return result;
         }
     }
 }

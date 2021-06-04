@@ -5638,19 +5638,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Maciek\\.nuget\\packages\\": {}
+    "C:\\Users\\kiedr\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Repozytorium\\CalculatorXUnit\\CalculatorXUnit.Tests\\CalculatorXUnit.Tests.csproj",
+      "projectUniqueName": "O:\\Wymiociny\\Calculator-XUnit\\CalculatorXUnit.Tests\\CalculatorXUnit.Tests.csproj",
       "projectName": "CalculatorXUnit.Tests",
-      "projectPath": "F:\\Repozytorium\\CalculatorXUnit\\CalculatorXUnit.Tests\\CalculatorXUnit.Tests.csproj",
-      "packagesPath": "C:\\Users\\Maciek\\.nuget\\packages\\",
-      "outputPath": "F:\\Repozytorium\\CalculatorXUnit\\CalculatorXUnit.Tests\\obj\\",
+      "projectPath": "O:\\Wymiociny\\Calculator-XUnit\\CalculatorXUnit.Tests\\CalculatorXUnit.Tests.csproj",
+      "packagesPath": "C:\\Users\\kiedr\\.nuget\\packages\\",
+      "outputPath": "O:\\Wymiociny\\Calculator-XUnit\\CalculatorXUnit.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Maciek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kiedr\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5664,8 +5664,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "F:\\Repozytorium\\CalculatorXUnit\\CalculatorXUnit.Backend\\CalculatorXUnit.Backend.csproj": {
-              "projectPath": "F:\\Repozytorium\\CalculatorXUnit\\CalculatorXUnit.Backend\\CalculatorXUnit.Backend.csproj"
+            "O:\\Wymiociny\\Calculator-XUnit\\CalculatorXUnit.Backend\\CalculatorXUnit.Backend.csproj": {
+              "projectPath": "O:\\Wymiociny\\Calculator-XUnit\\CalculatorXUnit.Backend\\CalculatorXUnit.Backend.csproj"
             }
           }
         }
@@ -5716,7 +5716,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CalculatorXUnit.Backend
 {
-    class Conversion
+    public class Conversion
     {
     }
 }

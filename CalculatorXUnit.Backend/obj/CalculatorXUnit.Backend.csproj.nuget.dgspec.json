@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Repozytorium\\CalculatorXUnit\\CalculatorXUnit.Backend\\CalculatorXUnit.Backend.csproj": {}
+    "O:\\Wymiociny\\Calculator-XUnit\\CalculatorXUnit.Backend\\CalculatorXUnit.Backend.csproj": {}
   },
   "projects": {
-    "F:\\Repozytorium\\CalculatorXUnit\\CalculatorXUnit.Backend\\CalculatorXUnit.Backend.csproj": {
+    "O:\\Wymiociny\\Calculator-XUnit\\CalculatorXUnit.Backend\\CalculatorXUnit.Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Repozytorium\\CalculatorXUnit\\CalculatorXUnit.Backend\\CalculatorXUnit.Backend.csproj",
+        "projectUniqueName": "O:\\Wymiociny\\Calculator-XUnit\\CalculatorXUnit.Backend\\CalculatorXUnit.Backend.csproj",
         "projectName": "CalculatorXUnit.Backend",
-        "projectPath": "F:\\Repozytorium\\CalculatorXUnit\\CalculatorXUnit.Backend\\CalculatorXUnit.Backend.csproj",
-        "packagesPath": "C:\\Users\\Maciek\\.nuget\\packages\\",
-        "outputPath": "F:\\Repozytorium\\CalculatorXUnit\\CalculatorXUnit.Backend\\obj\\",
+        "projectPath": "O:\\Wymiociny\\Calculator-XUnit\\CalculatorXUnit.Backend\\CalculatorXUnit.Backend.csproj",
+        "packagesPath": "C:\\Users\\kiedr\\.nuget\\packages\\",
+        "outputPath": "O:\\Wymiociny\\Calculator-XUnit\\CalculatorXUnit.Backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Maciek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kiedr\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,7 +57,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
