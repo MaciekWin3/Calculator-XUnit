@@ -7,3 +7,12 @@ F:\Repozytorium\CalculatorXUnit\CalculatorXUnit.Backend\obj\Debug\netstandard2.0
 F:\Repozytorium\CalculatorXUnit\CalculatorXUnit.Backend\obj\Debug\netstandard2.0\CalculatorXUnit.Backend.csproj.CoreCompileInputs.cache
 F:\Repozytorium\CalculatorXUnit\CalculatorXUnit.Backend\obj\Debug\netstandard2.0\CalculatorXUnit.Backend.dll
 F:\Repozytorium\CalculatorXUnit\CalculatorXUnit.Backend\obj\Debug\netstandard2.0\CalculatorXUnit.Backend.pdb
+O:\Wymiociny\Calculator-XUnit\CalculatorXUnit.Backend\bin\Debug\netstandard2.0\CalculatorXUnit.Backend.deps.json
+O:\Wymiociny\Calculator-XUnit\CalculatorXUnit.Backend\bin\Debug\netstandard2.0\CalculatorXUnit.Backend.dll
+O:\Wymiociny\Calculator-XUnit\CalculatorXUnit.Backend\bin\Debug\netstandard2.0\CalculatorXUnit.Backend.pdb
+O:\Wymiociny\Calculator-XUnit\CalculatorXUnit.Backend\obj\Debug\netstandard2.0\CalculatorXUnit.Backend.csprojAssemblyReference.cache
+O:\Wymiociny\Calculator-XUnit\CalculatorXUnit.Backend\obj\Debug\netstandard2.0\CalculatorXUnit.Backend.AssemblyInfoInputs.cache
+O:\Wymiociny\Calculator-XUnit\CalculatorXUnit.Backend\obj\Debug\netstandard2.0\CalculatorXUnit.Backend.AssemblyInfo.cs
+O:\Wymiociny\Calculator-XUnit\CalculatorXUnit.Backend\obj\Debug\netstandard2.0\CalculatorXUnit.Backend.csproj.CoreCompileInputs.cache
+O:\Wymiociny\Calculator-XUnit\CalculatorXUnit.Backend\obj\Debug\netstandard2.0\CalculatorXUnit.Backend.dll
+O:\Wymiociny\Calculator-XUnit\CalculatorXUnit.Backend\obj\Debug\netstandard2.0\CalculatorXUnit.Backend.pdb
