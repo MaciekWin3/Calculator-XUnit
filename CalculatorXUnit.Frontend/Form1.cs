@@ -103,11 +103,20 @@ namespace CalculatorXUnit.Frontend
 
         private void NumberOperation(string sign)
         {
-            num1 = Decimal.Parse(textBox1.Text);
+            try
+            {
+                num1 = Decimal.Parse(textBox1.Text);
+            }
+            catch(Exception e)
+            {
+                num1 = 0;
+            }
+            
             label1.Text = textBox1.Text;
             label1.Text += sign;
             this.sign = sign;
             startNewNumber = true;
+            negative = false;
         }
 
         private void buttonAdd_Click(object sender, EventArgs e)
@@ -161,7 +170,7 @@ namespace CalculatorXUnit.Frontend
                 textBox1.Text = result.ToString();                
                 sign = String.Empty;
                 startNewNumber = true;
-                
+                negative = false;
             }
             catch (Exception ex)
             {
@@ -187,7 +196,11 @@ namespace CalculatorXUnit.Frontend
 
         private void buttonBackspace_Click(object sender, EventArgs e)
         {
-            textBox1.Text = textBox1.Text.Remove(textBox1.Text.Length - 1);
+            if(textBox1.Text.Length < 1)
+            {
+                textBox1.Text = textBox1.Text.Remove(textBox1.Text.Length - 1);
+            }
+            
         }
 
         private void buttonNegative_Click(object sender, EventArgs e)
@@ -212,8 +225,16 @@ namespace CalculatorXUnit.Frontend
         private void button10_Click(object sender, EventArgs e)
         {
             Calculator calculator = new Calculator();
+            decimal numberToConvert;
 
-            decimal numberToConvert = Decimal.Parse(textBox1.Text);
+            try
+            {
+                numberToConvert = Decimal.Parse(textBox1.Text);
+            }
+            catch
+            {
+                numberToConvert = 0;
+            }
 
             label3.Text = textBox1.Text +" in binary = " + calculator.RoundAndConvertToBinary(numberToConvert);
         }
